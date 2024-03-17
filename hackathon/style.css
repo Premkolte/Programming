@@ -1,0 +1,29 @@
+/* .heading{
+    align-items: center;
+    justify-content: center;
+} */
+
+.racard{
+    display: flex;
+    justify-content: space-around;
+    margin: 10%;
+}
+
+.im{
+    width: 50%;
+}
+img{
+    height: 250PX;
+    width: 350px;
+}
+
+.text{
+    width: 50%;
+}
+
+p{
+    color: red;
+}
+
+
+

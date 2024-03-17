@@ -1,0 +1,25 @@
+.puzzle-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 2px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.empty {
+    background-color: #9e9e9e;
+}

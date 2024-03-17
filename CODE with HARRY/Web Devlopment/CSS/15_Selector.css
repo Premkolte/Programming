@@ -1,0 +1,19 @@
+p{
+    color: hotpink;
+}
+
+#selector{
+    color: yellow;
+}
+
+h2{
+    color: blueviolet;
+}
+
+#selector , h2{
+    background-color: turquoise;
+}
+
+p , h2{
+    border: 2px solid red;
+}
